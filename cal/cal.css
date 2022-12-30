@@ -1,0 +1,60 @@
+.back{
+
+    background-image: url("https://media.istockphoto.com/id/1268759368/photo/close-up-of-a-black-slate-texture-background-stone-grunge-texture.jpg?s=170667a&w=0&k=20&c=rziNP-4KLkE44poJ5UbYd9N94udyCHSu_bAkPuF3chM=");
+    background-size:cover;
+    height: 100vh;
+}
+
+
+.container{
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153, 153,153,1);
+    border-top: 1px solid  #999;
+    border-top: 1px solid  #999;
+    background-color: aliceblue;
+
+}
+#display{
+    text-align: right;
+    height: 70px;
+    line-height:70px;
+    padding: 10px 8px;
+    font-size:25px;
+    font-weight: bold;
+   
+    
+
+}
+.buttons{
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+   
+}
+.buttons > div {
+   
+    border-top: 1px solid  #999;
+    border-right: 1px solid  #999;
+}
+.button{
+    border:0.5px solid  #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor:pointer;
+    
+}
+
+#equal{
+     background-color: blue;
+     color: white;
+}
+.button:hover{
+    background-color: black;
+    color: azure;
+    transition: 0.5s ease-in-out;
+    
+}
